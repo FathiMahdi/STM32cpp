@@ -6,6 +6,6 @@ void CppMain()
 {
   while (1)
   {
-    myCppClass.ToggleLed();
+    myCppClass.ToggleLed(300);
   }
 }

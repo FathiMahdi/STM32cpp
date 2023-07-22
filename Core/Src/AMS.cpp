@@ -2,10 +2,10 @@
 #include "main.h"
 
 
-void CppClass::ToggleLed()
+void CppClass::ToggleLed(uint32_t sleep)
 {
     HAL_GPIO_TogglePin(MCU_LED_GPIO_Port, MCU_LED_Pin);
-    HAL_Delay(1000);
+    HAL_Delay(sleep);
 }
 
 
