@@ -1,0 +1,4 @@
+main.cpp:65:5:int main()	1
+main.cpp:115:6:void SystemClock_Config()	3
+main.cpp:158:5:int __io_putchar(int)	1
+main.cpp:175:6:void Error_Handler()	1
