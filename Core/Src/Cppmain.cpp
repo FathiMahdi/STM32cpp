@@ -19,7 +19,7 @@ void CppMain()
     myCppClass.ToggleLed(time);
     if (time<5000)
     {
-      time+100;
+      time+=500;
     }
     else
     {
