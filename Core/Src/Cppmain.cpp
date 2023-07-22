@@ -9,23 +9,29 @@ vector <uint32_t> v;
 
 uint32_t time = 0;
 CppClass myCppClass;
-
+int x = 0;
 
 void CppMain()
 {
 
   while (1)
   {
-    myCppClass.ToggleLed(time);
+    
     if (time<5000)
     {
-      time+=500;
+      time+=100;
     }
-    else
+    else if (time >= 5000)
     {
       time=0;
+      x = 0;
     }
     
     v.push_back(time); // increase the toggling time
+
+    myCppClass.ToggleLed(v[x]);
+
+    x++;
+
   }
 }
