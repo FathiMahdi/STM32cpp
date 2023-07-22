@@ -1,12 +1,14 @@
 #include "AMS.hpp"
+#include "main.h"
 
 
-CppClass::CppClass(int x, float y)
+void CppClass::ToggleLed()
 {
-    r1 = x;
-    r2 = y;
-    
+    HAL_GPIO_TogglePin(MCU_LED_GPIO_Port, MCU_LED_Pin);
+    HAL_Delay(1000);
 }
+
+
 
 int CppClass::add(int x, int y)
 {

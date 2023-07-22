@@ -53,10 +53,12 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+void CppMain(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define MCU_LED_Pin GPIO_PIN_13
+#define MCU_LED_GPIO_Port GPIOC
 
 /* USER CODE BEGIN Private defines */
 

@@ -6,11 +6,11 @@
 class CppClass
 {
     public:
-        CppClass(int x, float y);
         int add(int x, int y);
         float add(float x, float y);
         int getResult(int *result);
         float getResult(float* result);
+        void ToggleLed(void);
 
     private: 
         int   r1;
