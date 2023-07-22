@@ -5,6 +5,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
+
 class CppClass
 {
     public:
@@ -13,6 +14,7 @@ class CppClass
         int getResult(int *result);
         float getResult(float* result);
         void ToggleLed(uint32_t sleep);
+        void ToggleLed();
 
     private: 
         int   r1;

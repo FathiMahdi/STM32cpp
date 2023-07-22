@@ -1,5 +1,6 @@
-../Core/Src/AMS.cpp:5:6:void CppClass::ToggleLed(uint32_t)	16	static
-../Core/Src/AMS.cpp:13:5:int CppClass::add(int, int)	24	static
-../Core/Src/AMS.cpp:20:7:float CppClass::getResult(float*)	16	static
-../Core/Src/AMS.cpp:26:5:int CppClass::getResult(int*)	16	static
-../Core/Src/AMS.cpp:31:7:float CppClass::add(float, float)	24	static
+../Core/Src/AMS.cpp:8:6:void CppClass::ToggleLed(uint32_t)	16	static
+../Core/Src/AMS.cpp:17:6:void CppClass::ToggleLed()	16	static
+../Core/Src/AMS.cpp:29:5:int CppClass::add(int, int)	24	static
+../Core/Src/AMS.cpp:38:7:float CppClass::getResult(float*)	16	static
+../Core/Src/AMS.cpp:46:5:int CppClass::getResult(int*)	16	static
+../Core/Src/AMS.cpp:56:7:float CppClass::add(float, float)	24	static
